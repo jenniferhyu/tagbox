@@ -1,0 +1,32 @@
+#tags{
+  float:left;
+  border:1px solid #ccc;
+  padding:1px;
+  font-family:Arial;
+}
+#tags span.tag{
+  cursor:pointer;
+  display:block;
+  float:left;
+  color:#000;
+  background:#fff;
+  padding:5px;
+  padding-right:5px;
+  margin:4px;
+}
+#tags span.tag:after{
+ position:absolute;
+ border:1px;
+ content: "x";
+ padding:2px 4px;
+ margin-left:1px;
+ font-size:10px;
+}
+#tags input{
+  background:#eee;
+  border:0;
+  margin:4px;
+  margin-right:2px;
+  padding:7px;
+  width:auto;
+}
